@@ -4,7 +4,6 @@ A BI tool that ranks products not by *how often* they're returned, but by *how m
 their returns actually cost* — because the two aren't the same thing. A cheap item with a
 high return rate can matter less than an expensive item with a moderate one.
 
-**Live demo:** _[add your deployed Streamlit Cloud link here once deployed]_
 
 ## What it does
 
@@ -52,14 +51,6 @@ python -m streamlit run app.py
 The app builds its SQLite database automatically on first run — 30 products across 6
 categories (Apparel, Shoes, Electronics, Home & Kitchen, Beauty, Accessories) with
 category-appropriate return-rate baselines and holiday-season sales/returns seasonality.
-
-## Deploy it for free (Streamlit Community Cloud)
-
-1. Push this repo to your own GitHub account.
-2. Go to [share.streamlit.io](https://share.streamlit.io), sign in with GitHub.
-3. Click **Create app** → "Yup, I have an app" → select this repo, branch `main`, main
-   file `app.py` → **Deploy**.
-4. You'll get a public URL to share or link from your CV.
 
 ## About the data
 
